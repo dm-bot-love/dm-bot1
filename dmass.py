@@ -12,7 +12,7 @@ client = commands.Bot(command_prefix = 'abc', case_insensitive=True)
 Client = discord.client
 Clientdiscord = discord.Client()
 
-TOKEN = 'NzA3MjY3ODQ5MDMwMjA1NzQz.XrHEVg.TWVeXFECvtOxX5doOXJmBW3ROHI'
+
 
 
 @client.event
@@ -47,4 +47,4 @@ async def send(ctx, *, content: str):
                 await client.say("DM can't Sent To : {} :x: ".format(member))
 
 
-client.run("TOKEN")                
+client.run("NzA3MjY3ODQ5MDMwMjA1NzQz.XrHEVg.TWVeXFECvtOxX5doOXJmBW3ROHI")                
